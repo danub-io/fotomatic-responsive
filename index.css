@@ -1,0 +1,450 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;  
+}
+
+body {
+    margin: 0;
+    background-color: #f3f3f3;
+}
+/* HEADER SECTION */
+.phone {
+    display: none;
+}
+
+header {
+    height: 5.31rem;
+    width: 100%;
+    min-width: 42rem;
+    background-color: white;
+    position: fixed;
+    display: inline-flex;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#logobox {
+    margin-left: 1.87rem;
+}
+
+#logobox2 {
+    display: none;
+}
+
+.desktopmenu ul {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    line-height: 1.6;
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav li {
+    padding-left: 3.5rem;
+    white-space: nowrap;
+}
+
+.hbutton {
+    display: flex;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #9dc20b;
+    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 1.87rem;
+}
+
+.igicon {
+    max-height: 1rem;
+    padding-left: 0.62rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+/* MAIN CONTENT */
+#banner-container {
+    color: white;
+    padding-top: 5.31rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 43.5rem;
+    background-image: url(https://i.ibb.co/YLgVTpT/banner-landingpage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+#squaredbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 22.27rem;
+    max-width: 35.75rem;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 6.25rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.cursive {
+    font-family: "Damion", cursive;
+    font-size: 2.25rem;
+    font-weight: normal;
+    padding: 0;
+    margin: 2rem 5rem 0rem 5rem;
+    white-space: nowrap;
+}
+
+.striking {
+    font-family: "Rubik", sans-serif;  
+    text-transform: uppercase;
+    font-size: 3.125rem;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0rem 5rem 0.75rem 5rem;
+    white-space: nowrap;
+}
+
+#email {
+    display: none;
+    font-family: "Roboto", sans-serif;  
+    font-weight: normal;
+    line-height: 1.4;
+    font-size: 1.25rem;
+    margin: 0rem 5rem 1.62rem 5rem;
+}
+
+.button {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 25.5rem;
+    height: 4rem;
+    font-family: "Roboto", sans-serif;  
+    font-weight: 400;
+    font-size: 1.25rem;
+    background-color: #4a4a4a;
+    border-radius: 0.25rem;
+    margin: 0rem 5rem 3.5rem 5rem;
+}
+/* FEATURES SECTION */
+#featuresbox{
+    display: flex;
+    justify-content: center;
+    padding: 0rem 5% 2.875rem 5%;
+    text-align: center;
+}
+
+#imgbox1 {
+    background-color: white;
+    width: 35rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#imgbox2 {
+    background-color: white;
+    width: 35rem;
+    height: auto;
+    margin-top: 4rem;
+    text-align: center;
+    margin-left: 2.4rem;
+}
+
+#imginside1, #imginside2 {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.textinside {
+    height: 11.7rem;
+    height: fit-content;
+}
+
+.textinside h2 {
+    font-family: "Roboto", sans-serif;  
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #4a4a4a;
+    margin-top: 2.5rem;
+    margin: 2.5rem 2rem 0.75rem 2rem;
+}
+
+.textinside h3 {
+    font-family: "Roboto", sans-serif;  
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.2;
+    color: #4a4a4a;
+    margin: 0 2rem 0 2rem;
+    padding-bottom: 0;
+    margin-bottom: 2.5rem;
+}
+/* FILTERS SECTION */
+#filtercontainer {
+    background-color: #4a4a4a;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#ftext h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;  
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+}
+
+#ftext h3 {
+    color: white;
+    font-family: "Roboto", sans-serif;  
+    margin-top: 0;
+    padding: 0rem 0rem 5rem 0rem;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.4;
+}
+
+#fimgboxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1%;
+}
+/* QUOTES SECTION */
+#quotescontainer {
+    display: inline-flex;
+    width: 100%;
+    padding: 4rem 0 4rem 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#qtext h2 {
+    margin: 0 1.875rem 0 0;
+    font-family: "Palatino", serif;
+    font-style: italic;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    color: #4a4a4a;
+    margin-left: 1rem;
+}
+
+.qimg {
+    margin-right: 1rem;
+}
+
+/* FOOTER SECTION */
+footer {
+    display: inline-flex;
+    width: 100%;
+    background-color: #9b9b9b;
+    color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", serif;
+    font-style: 300;
+    font-size: 0.75rem;
+    padding: 1rem 0 1rem 0;
+}
+
+footer .fl {
+    margin-left: 2rem;
+}
+
+footer .fr {
+    margin-right: 2rem;
+}
+
+/* ----PC & TV---- */
+@media only screen and (min-width: 768px) {
+    .hbutton {
+        display: none;
+    }
+
+    #squaredbox {
+        background-color: #9DC20A;
+    }
+
+    #email{
+        display: block;
+    }
+
+    .button {
+        display: flex;
+    }
+}
+
+/* ----PHONE AND TABLET---- */
+@media only screen and (max-width: 480px), (max-width: 768px) {
+    #banner-container {
+        justify-content: center;    
+    }
+
+    #squaredbox {
+        margin-left: 0;
+    }
+}
+
+/* ----TABLET---- */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .textinside {
+        text-align: left;
+    }
+
+    #banner-container {     
+        width: 100%;
+        background-position: right;
+    }
+}
+
+
+/* ----PHONE---- */
+@media only screen and (max-width: 480px) {
+    #logobox, .desktopmenu {
+        display: none;
+    }
+
+    #logobox2 {
+        display: block;
+    }
+
+    #logobox2 ul {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    #logobox2 li {
+        list-style: none;
+        margin: 0 2.5rem;
+    }
+
+    header {
+        display: flex;
+        min-width: 0;
+        justify-content: center;
+        height: 3rem;
+    }
+
+    .hbutton {
+        margin-right: 0;
+        height: 2.125rem;
+        width: 4rem;
+    }
+
+    #banner-container {
+        height: 25rem;
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+        
+    #featuresbox {
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+    }
+
+    #imgbox2 {
+        margin-left: 0;
+    }
+
+    #quotescontainer{
+        flex-wrap: wrap;
+    }
+
+    .qimg {
+        margin-top: 1.5rem;
+    }
+
+    #fimgbox4 {
+        display: none;
+    }
+
+    #imgbox1, #imgbox2 {
+        margin-top: 1rem;
+        background-color: #d6d6d6;
+    }
+
+    .textinside h2 {
+        font-size: 1.125rem;
+        font-family: 'Roboto', serif;
+        font-style: normal;
+        line-height: 1.3;
+        margin: 2rem 2rem 0.75rem 2rem;
+    }
+
+    .textinside h3 {
+        margin-bottom: 1.875rem;
+        font-size: 0.875rem;
+        line-height: 1.4;
+    }
+    
+    #filtercontainer {
+        padding: 0;
+    }
+
+    #ftext {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    #ftext h2 {
+        padding: 2rem 2rem 2rem 2rem;
+        font-size: 1.85rem;
+        font-weight: normal;
+    }
+
+    #ftext h3 {
+        padding: 0 2rem 2rem;
+        font-size: 1.3rem;
+        opacity: 0.8;
+    }
+
+    #qtext h2 {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        opacity: 0.8;
+    }
+
+    #quotescontainer {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .qimg {
+        margin-right: 0;
+    }
+
+    footer .fl, .fr{
+        font-size: 0.625rem;
+        font-weight: normal;
+    }
+}
