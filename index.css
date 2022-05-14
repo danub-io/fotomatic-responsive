@@ -454,8 +454,7 @@ footer .fr {
         font-size: 1.5rem;
         line-height: 1.4;
         opacity: 0.8;
-        margin: 0;
-        width: 100vw;
+        width: 90%;
     }
 
     #quotescontainer {
