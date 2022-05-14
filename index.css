@@ -326,6 +326,15 @@ footer .fr {
         width: 100%;
         background-position: right;
     }
+
+    header {
+        min-width: 30rem;
+    }
+
+    nav li {
+        padding-left: 2rem;
+        white-space: nowrap;
+    }
 }
 
 
