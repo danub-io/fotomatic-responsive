@@ -343,11 +343,13 @@ footer .fr {
         display: flex;
         align-items: center;
         padding: 0;
+        margin: 0;
     }
 
     #logobox2 li {
+        margin: 0 2rem 0 2rem;
         list-style: none;
-        margin: 0 0 0 2.5rem;
+        margin: 0 2rem 0 2rem;
     }
 
     header {
