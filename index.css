@@ -14,7 +14,7 @@ body {
 
 header {
     height: 5.31rem;
-    width: 100vw;
+    width: 100%;
     min-width: 42rem;
     background-color: white;
     position: fixed;
@@ -25,6 +25,7 @@ header {
     align-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
+    width: 100vw;
 }
 
 #logobox {
@@ -102,6 +103,7 @@ a {
     background-repeat: no-repeat;
     margin-left: 6.25rem;
     text-align: center;
+    width: 100vw;
     z-index: 1;
 }
 
@@ -345,7 +347,7 @@ footer .fr {
 
     #logobox2 li {
         list-style: none;
-        margin: 0 2.5rem;
+        margin: 0 0 0 2.5rem;
     }
 
     header {
@@ -367,6 +369,13 @@ footer .fr {
         background-size: cover;
         background-repeat: no-repeat;
         z-index: 1;
+        width: 100vw;
+    }
+
+    .striking, h1 {
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
     }
         
     #featuresbox {
@@ -380,6 +389,7 @@ footer .fr {
 
     #quotescontainer{
         flex-wrap: wrap;
+        padding: 2rem 0 2rem 0;
     }
 
     .qimg {
@@ -429,14 +439,20 @@ footer .fr {
         opacity: 0.8;
     }
 
+    #qtext {
+        width: 100vw;
+    }
+
     #qtext h2 {
         font-size: 1.5rem;
         line-height: 1.4;
         opacity: 0.8;
+        margin: 0;
+        width: 100vw;
     }
 
     #quotescontainer {
-        padding: 2rem 1rem 2rem 1rem;
+        padding: 2rem 0rem 2rem 0rem;
     }
 
     .qimg {
