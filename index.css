@@ -366,12 +366,17 @@ footer .fr {
     }
 
     #banner-container {
+        padding-top: 0;
         height: 25rem;
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
         z-index: 1;
         width: 100vw;
+    }
+
+    .cursive {
+        margin-top: 0;
     }
 
     .striking, h1 {
